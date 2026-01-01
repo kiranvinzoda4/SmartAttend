@@ -1,0 +1,28 @@
+# Backend
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+sqlalchemy==2.0.23
+PyMySQL==1.1.0
+alembic==1.12.1
+pydantic[email]==2.5.0
+
+# Security
+argon2-cffi==23.1.0
+passlib==1.7.4
+jwcrypto==1.5.0
+python-dotenv==1.0.0
+
+# Computer Vision
+opencv-python==4.8.1.78
+numpy==1.26.4
+Pillow==10.4.0
+
+# AI
+torch==2.1.1
+torchvision==0.16.1
+onnxruntime==1.16.3
+insightface==0.7.3
+
+# Vector search (LOCAL, FAST, WINDOWS-SAFE)
+faiss-cpu==1.7.4
